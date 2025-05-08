@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { protectedProcedure } from "../trpc";
+import { protectedProcedure } from "../trpc.js";
 import { analyticsService } from "../services/analytics";
 import type { TRPCRouterRecord } from "@trpc/server";
 import { db } from "@repo/db/client";
